@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Han Tu & Chunfeng Yang</title>
+    <meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+    <meta name="GENERATOR" content="MSHTML 9.00.8112.16484" />
+    <style type="text/css">
+      .imgs {
+        border: thin solid #666;
+      }
+    </style>
+  </head>
+
+  <!-- for black background -->
+  <!-- BODY text=#ffffff vLink=#6666ff aLink=#ffffff link=#66ffff bgColor=#000000 -->
+  <!-- for white background -->
+  <!-- BODY text=#000000 vLink=#666622 aLink=#ff6622 link=#aa6622 bgColor=#ffffff -->
+
+  <body
+    text="#000000"
+    vlink="#666622"
+    alink="#ff6622"
+    link="#aa6622"
+    bgcolor="#ffffff"
+  >
+    <!-- level 1: text-align:center is needed to circumbent IE bug and centers inside divs -->
+    <div style="text-align: center; top: 0px; left: 0px">
+      <!-- level 2: secure a centered fixed-sized area that gets scrolled by browser's scroller -->
+      <div
+        id="main_area"
+        style="
+          text-align: left;
+          position: relative;
+          font-family: 'Times New Roman', Times, serif;
+          margin: auto;
+          width: 800px;
+        "
+      >
+        <!-- old version... div style="position: absolute; left: 100px; " -->
+
+        <table border="0" cellpadding="10" width="800">
+          <tbody>
+            <tr>
+              <td colspan="2">
+                <font size="6">Mindful Space in Sentences</font> <br />
+                <font size="4">
+                  -A Dataset of Virtual Emotions for Natural Language
+                  Classification-</font
+                >
+                <p>
+                  <font size="4"><i>Han Tu & Chunfeng Yang</i></font>
+                </p>
+
+                <p>
+                  Final project for the MIT class
+                  <a href="https://cat2.mit.edu/4.570/index.html"
+                    >4.550/4.570</a
+                  >
+                  Computation Design Lab <br />
+                  Development: February-May, 2022<br />
+                  Instructor: Prof. Takehiko Nagakura & Dr. Daniel Tsai
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td width="500">
+                <!-- New html5 video tag + mp4 movie for cross platform.                       -->
+                <!-- IE9 (2011 March), Chrome, Safari supported. FF still does not play mp4.   -->
+                <!-- If this doc is on scripts.mit.edu, you need chmod 777 on the video files. -->
+                <!-- as described in http://scripts.mit.edu/faq/48                             -->
+
+                <video
+                  width="400"
+                  style="border: 1px solid #999999"
+                  height="225"
+                  poster="cover.jpg"
+                  controls
+                  autoplay
+                  loop
+                >
+                  <!-- MP4 must be first for iPad -->
+                  <source
+                    src="./assets/Chunfeng_Yang_Han_Tu/Web_Video_01.mp4"
+                    type="video/mp4"
+                  />
+                  <!-- you may add webm, ogg, etc here if you like with source tag -->
+
+                  <!-- In script.mit.edu, IE 9 falls back to QT if it is installed in browser. -->
+                  <!-- In other server, IE 9 plays mp4 without QT. Do not know why...          -->
+                  <!-- If QT fails, the fall back text message should show     .               -->
+                  <!-- Simpler EMBED tag would not do this elegantly, so I use OBJECT tag.     -->
+                  <!-- Add 16 pixels to height for control, If not 1:1 scale, use below        -->
+                  <!--        param name="scale"      value="ASPECT"     -->
+
+                  <object
+                    align="left"
+                    width="400"
+                    height="241"
+                    classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
+                    codebase="http://www.apple.com/qtactivex/qtplugin.cab"
+                  >
+                    <param name="src" value="katya_4566.mp4" />
+                    <param name="scale" value="ASPECT" />
+                    <param name="autoplay" value="true" />
+                    <param name="controller" value="true" />
+                    <param name="loop" value="true" />
+                    <param name="bgcolor" value="white" />
+                    <param name="showlogo" value="false" />
+
+                    <!-- html4 always sees below. html5 sees below only if mp4 is not installed. -->
+                    If your browser does not plays the video, MP4 file can be
+                    downloaded
+                    <a href="./assets/Chunfeng_Yang_Han_Tu/Web_Video_01.mp4"
+                      >here</a
+                    >.
+                  </object>
+                </video>
+              </td>
+
+              <td valign="bottom">
+                <p><strong>Experiment Process</strong></p>
+                <p>
+                  The video shows an overview of the four experiments and the
+                  two questionnaires. This video was created in order to prepare
+                  test subjects for the experiment.
+                </p>
+
+                <p>
+                  Click
+                  <a href="./assets/Chunfeng_Yang_Han_Tu/Web_Video_01.mp4"
+                    >here</a
+                  >
+                  to enlarge the video.
+                </p>
+                <p>Movie info: mp4, 4:09 minutes</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table border="0" cellpadding="10" width="800">
+          <tbody>
+            <tr>
+              <td colspan="3">
+                <h2>Project Overview</h2>
+                <p>
+                  This research measured the emotions expressed in virtual
+                  reality (VR) spatial experiences. The study analyzed the
+                  sentence descriptions and classifies emotions for further
+                  application in architectural design. More specifically, the
+                  research used EEGs to analyze the relationships among virtual
+                  spaces, virtual experiences in linguistic descriptions, and
+                  the labels for spatial emotions. We varied the parameters in
+                  the visual-spatial environments and mapped from a spatial
+                  description dataset of sentences to spatial emotion labels.
+                  <br />
+                   The text dataset was
+                  trained through the Bidirectional Encoder Representations from
+                  Transformers (BERT) classification model in natural language
+                  processing (NLP) for further application of spatial design
+                  guidance in architecture.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table border="0" cellpadding="10" width="800">
+          <tbody>
+            <tr>
+              <td width="500">
+                <img
+                  style="border: 1px solid rgb(153, 153, 153)"
+                  src="./assets/Chunfeng_Yang_Han_Tu/Web_Image_01.jpg"
+                  width="500"
+                />
+              </td>
+              <td valign="bottom">
+                <p><strong>Fig 1. The 10 VR rooms</strong></p>
+                <br />
+                <p>First, the 26 subjects described 10 designed virtual spaces
+                  experienced with a VR headset (Quest 2 device) in about 1,402
+                  sentences that correspond to the different space parameters of
+                  shape, height, width, and length.</p>
+              </td>
+            </tr>
+            <tr>
+              <td width="500">
+                <img
+                  style="border: 1px solid rgb(153, 153, 153)"
+                  src="./assets/Chunfeng_Yang_Han_Tu/Web_Image_02.jpg"
+                  width="500"
+                />
+              </td>
+              <td valign="bottom">
+                <p><strong>Fig 2. EEG Data Analysis</strong></p>
+                <p>
+                  EEG data analysis of Participant 26 in VR Room 7, the emotion
+                  is labeled as active since the EEG is above the baseline of
+                  the participants
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td width="500">
+                <img
+                  style="border: 1px solid rgb(153, 153, 153)"
+                  src="./assets/Chunfeng_Yang_Han_Tu/Web_Image_03.jpg"
+                  width="500"
+                />
+              </td>
+              <td valign="bottom">
+                <p><strong>Fig 3. The room scene, sentences example, and EEG data of Room 7</strong></p>
+                <p>Simultaneously, the EEG
+                  (Muse 2 device) measured the emotions of the subjects using
+                  four electrodes and the five brain waves of alpha, beta,
+                  gamma, theta, and delta. Second, a visual-spatial dataset of
+                  about 1,402 sentences with 2 labels – calm and active –
+                  analyzed from EEGs was built by the researchers to describe
+                  these virtual reality spaces. </p>
+              </td>
+            </tr>
+            <tr>
+              <td width="500">
+                <img
+                  style="border: 1px solid rgb(153, 153, 153)"
+                  src="./assets/Chunfeng_Yang_Han_Tu/Web_Image_04.jpg"
+                  width="500"
+                />
+              </td>
+              <td valign="bottom">
+                <p><strong>Fig 4. Sample of our dataset</strong></p>
+                <p>
+                  Test subjects were asked to fill in two questionnaires:
+                  personal information(prior the experiment) and subjective
+                  feedback(after the experiments).
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table border="0" cellpadding="10" width="800">
+          <tbody>
+            <tr>
+              <td height="100">
+                <p><strong>Limitatins</strong></p>
+                <p>
+                  Our dataset has two main limitations. First, the default
+                  objects in the virtual room such as windows and doors may
+                  affect the participants’ emotions about the spaces. Second,
+                  our EEG device can detect very limited brainwaves with active
+                  or calm states.
+                </p>
+                <p>&nbsp;</p>
+              </td>
+              
+            </tr>
+          </tbody>
+        </table>
+        <table border="0" cellpadding="10" width="800">
+          <tbody>
+            <tr>
+              <td height="100">
+                <p><strong>Conclusion</strong></p>
+                <p>
+                  This research attempts to offer a useful NLP emotion
+                  classification dataset for architectural design improvement
+                  using everyday sentences. The dataset helps architects
+                  understand the virtual spatial emotions in everyday
+                  descriptions. Therefore, the trained BERT model from our
+                  dataset can be utilized to analyze everyday descriptions to
+                  obtain the pure spatial emotions as a resource to guide
+                  design.
+                </p>
+                <p>&nbsp;</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <hr />
+        <div
+          id="tail"
+          style="
+            text-align: center;
+            margin: auto;
+            width: 800px;
+            font-size: 0.8em;
+            color: #dddddd;
+            background-color: #000000;
+          "
+        >
+          <!-- click the counter on the page to see the instruction by SIPB -->
+          <a href="http://stuff.mit.edu/doc/counter-howto.html">
+            <!-- the identifier needs to be unique to this page -->
+            <img
+              src="http://stuff.mit.edu/cgi/counter/takehiko_counter_katya_201306"
+              alt="several"
+              border="0"
+          /></a>
+          <br />2013 All rights reserved. &nbsp;&nbsp; Last modified: Jan. 30,
+          2014 by TN
+        </div>
+      </div>
+      <!-- level 1 ends -->
+    </div>
+    <!-- level 2 ends -->
+  </body>
+</html>

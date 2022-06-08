@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Rohit Sanatani</title>
+    <meta content="text/html; charset=windows-1252" http-equiv="Content-Type" />
+    <meta name="GENERATOR" content="MSHTML 9.00.8112.16484" />
+    <style type="text/css">
+      .imgs {
+        border: thin solid #666;
+      }
+    </style>
+  </head>
+
+  <!-- for black background -->
+  <!-- BODY text=#ffffff vLink=#6666ff aLink=#ffffff link=#66ffff bgColor=#000000 -->
+  <!-- for white background -->
+  <!-- BODY text=#000000 vLink=#666622 aLink=#ff6622 link=#aa6622 bgColor=#ffffff -->
+
+  <body
+    text="#000000"
+    vlink="#666622"
+    alink="#ff6622"
+    link="#aa6622"
+    bgcolor="#ffffff"
+  >
+    <!-- level 1: text-align:center is needed to circumbent IE bug and centers inside divs -->
+    <div style="text-align: center; top: 0px; left: 0px">
+      <!-- level 2: secure a centered fixed-sized area that gets scrolled by browser's scroller -->
+      <div
+        id="main_area"
+        style="
+          text-align: left;
+          position: relative;
+          font-family: 'Times New Roman', Times, serif;
+          margin: auto;
+          width: 800px;
+        "
+      >
+        <!-- old version... div style="position: absolute; left: 100px; " -->
+
+        <table border="0" cellpadding="10" width="800">
+          <tbody>
+            <tr>
+              <td colspan="2">
+                <font size="6">The Pulse of the City</font> <br />
+                <font size="4">
+                  -A data-driven comparative analysis of the features of tourist interest across three global cities-</font
+                >
+                <p>
+                  <font size="4"><i>Rohit Priyadarshi Sanatani</i></font>
+                </p>
+
+                <p>
+                  Final project for the MIT class
+                  <a href="https://cat2.mit.edu/4.570/index.html"
+                    >4.550/4.570</a
+                  >
+                  Computation Design Lab <br />
+                  Development: February-May, 2022<br />
+                  Instructor: Prof. Takehiko Nagakura & Dr. Daniel Tsai
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td width="500">
+                <!-- New html5 video tag + mp4 movie for cross platform.                       -->
+                <!-- IE9 (2011 March), Chrome, Safari supported. FF still does not play mp4.   -->
+                <!-- If this doc is on scripts.mit.edu, you need chmod 777 on the video files. -->
+                <!-- as described in http://scripts.mit.edu/faq/48                             -->
+
+                <img
+                  width="400"
+                  style="border: 1px solid #999999"
+                  height="225"
+                  poster="cover.jpg"
+                  controls
+                  autoplay
+                  loop
+                  src="./assets/Rohit_Sanatani/fig1.JPG"
+                >
+                </img>
+              </td>
+
+              <td valign="bottom">
+                <p><strong>Overview</strong></p>
+                <p>
+                  Tourist attractions play major roles in shaping the mental image of cities for residents and visitors alike. While there have been numerous studies over the past decades inquiring into urban tourist sentiment and features of interest, the exponential growth of big-data over the past few years have opened up valuable methodological appraches in this regard (Alaei et al. 2019).
+
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table border="0" cellpadding="10" width="800">
+          <tbody>
+            <tr>
+              <td colspan="3">
+                <h2>Project Overview</h2>
+                <p>
+                  Drawing upon Point of Interest (POI) data for tourist attractions across three cities across the globe - Boston, Singapore and Sydney - this body of research analyses the predominant themes of discussion and features of interest that contribute towards popular tourist sentiment towards these cities. The study collects over 3500 user reviews and over 6000 photographs across 750 tourist attractions through the Google Places API. This data is then merged with Flickr data streams for additional visual content, and Twitter posts for additional data on topics of interest. Sentiment analysis is then carried out on the textual data using the NLTK Vader analyzer, for the extraction of emotional content. A Latent Dirichlet Allocation (LDA) model is used for topic-modeling for the extraction of high-level concepts and predominant topics of discussion emergent from these cities. A faster-RCNN object detection model trained on the Open-Images V4 dataset is then run on the user photographs for extraction of semantic features contained within them. Unsupervised K-means clustering is carried out on these features, to identify the major themes of tourist interest. Similar clustering is then carried out on the combined dataset, to identify major themes of discussion and corresponding features of interest that frequently appear together. Finally, a qualitative assessment of these clusters is embarked upon, for a comparative analysis of the major similarities and differences in patterns of tourist interest across the five cities. It is hoped that the methodological framework demonstrated through this work is able to provide valuable insights into the multitude of ways in which different cities across the world are perceived by tourists and visitors.
+                   
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table border="0" cellpadding="10" width="800">
+          <tbody>
+            <tr>
+              <td width="500">
+                <img
+                  style="border: 1px solid rgb(153, 153, 153)"
+                  src="./assets/Rohit_Sanatani/fig2.JPG"
+                  width="500"
+                />
+              </td>
+              <td valign="bottom">
+                <p><strong>Fig 1. Latent Dirichlet Allocation (LDA) - Topic Modeling - BOSTON</strong></p>
+                <br />
+              </td>
+            </tr>
+            <tr>
+              <td width="500">
+                <img
+                  style="border: 1px solid rgb(153, 153, 153)"
+                  src="./assets/Rohit_Sanatani/fig3.JPG"
+                  width="500"
+                />
+              </td>
+              <td valign="bottom">
+                <p><strong>Fig 2. Negative Comments</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="500">
+                <img
+                  style="border: 1px solid rgb(153, 153, 153)"
+                  src="./assets/Rohit_Sanatani/fig4.JPG"
+                  width="500"
+                />
+              </td>
+              <td valign="bottom">
+                <p><strong>Fig 3. Positive Comments</strong></p>
+              </td>
+            </tr>
+            <tr>
+              <td width="500">
+                <img
+                  style="border: 1px solid rgb(153, 153, 153)"
+                  src="./assets/Rohit_Sanatani/fig5.JPG"
+                  width="500"
+                />
+              </td>
+              <td valign="bottom">
+                <p><strong>Fig 4. Comparison between Boston, Singapore, and Sydney</strong></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table border="0" cellpadding="10" width="800">
+          <tbody>
+            <tr>
+              <td height="100">
+                <p><strong>References</strong></p>
+                <p>
+                  Alaei, A.R., Becken, S. and Stantic, B., 2019. Sentiment analysis in tourism: capitalizing on big data. Journal of Travel Research, 58(2), pp.175-191
+                  <br><br>
+                  Cardone, B., Di Martino, F. and Sessa, S., 2021. GIS-based fuzzy sentiment analysis framework to classify urban elements according to the orientations of citizens and tourists expressed in social networks. Evolutionary Intelligence, pp.1-10
+                  <br><br>
+                  Gali, N. and Donaire, J.A., 2015. Tourists taking photographs: the long tail in tourists' perceived image of Barcelona. Current Issues in Tourism, 18(9), pp.893-902.
+                <br><br>
+                Marti, P., Serrano-Estrada, L. and Nolasco-Cirugeda, A., 2019. Social Media data: Challenges, opportunities and limitations in urban studies. Computers, Environment and Urban Systems, 74, pp.161-174.
+                <br><br>
+                Valdivia, A., Luzon, M.V. and Herrera, F., 2017. Sentiment analysis in tripadvisor. IEEE Intelligent Systems, 32(4), pp.72-77.
+                </p>
+                <p>&nbsp;</p>
+              </td>
+              
+            </tr>
+          </tbody>
+        </table>
+
+        <hr />
+        <div
+          id="tail"
+          style="
+            text-align: center;
+            margin: auto;
+            width: 800px;
+            font-size: 0.8em;
+            color: #dddddd;
+            background-color: #000000;
+          "
+        >
+          <!-- click the counter on the page to see the instruction by SIPB -->
+          <a href="http://stuff.mit.edu/doc/counter-howto.html">
+            <!-- the identifier needs to be unique to this page -->
+            <img
+              src="http://stuff.mit.edu/cgi/counter/takehiko_counter_katya_201306"
+              alt="several"
+              border="0"
+          /></a>
+          <br />2013 All rights reserved. &nbsp;&nbsp; Last modified: Jan. 30,
+          2014 by TN
+        </div>
+      </div>
+      <!-- level 1 ends -->
+    </div>
+    <!-- level 2 ends -->
+  </body>
+</html>
